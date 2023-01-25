@@ -74,6 +74,7 @@ header .nav ul li a:hover{
     color: white;
     padding: 10px 55px 10px 55px;
     border-radius: 5px;
+    border: 0px;
     transition-duration: 0.4s;
     font-weight: bolder;
 }
@@ -222,6 +223,7 @@ header .nav ul li a:hover{
     background-color: #e0b455;
     padding: 10px 30px 10px 30px;
     color: white;
+    border: 0px;
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 20px;
