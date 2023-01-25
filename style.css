@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header .Logo{
+} */
+header .nav li{
+    list-style: none;
+}
+
+header .nav ul li{
+    position: relative;
+    float: left;
+    color: white;
+    margin-right: 10px;
+
+}
+header .nav ul li a{
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+header .nav ul li a:hover{
+    background-color: gray;
+    color: black;
+}
+.section1{
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: url('/Images/backgroundimg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#s1{
+    margin: 300px 300px 0px 300px;
+}
+#s1 h2{
+    font-weight: lighter;
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#s1 p{
+    color: #474747;
+    padding-bottom: 30px;
+}
+#btn-contact{
+    background-color: black;
+    color: white;
+    padding: 10px 55px 10px 55px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    font-weight: bolder;
+}
+#btn-contact:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+.section2{
+    height: 45vh;
+    box-sizing: border-box;
+    background-color: white;
+}
+#s2{
+    margin: 0px 500px 0px 500px;
+}
+#s2 h2{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding:50px 0px 10px 0px;
+}
+#s2 p{
+    color: #474747;
+    margin: 0;
+}
+
+.section3{
+    height: 45vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+#s3{
+    display: flex;
+    text-align: left;
+    padding: 40px 300px 40px 300px;
+}
+
+.col-left{
+    flex: 50%;
+    margin-right: 30px;
+}
+.col-right{
+    flex: 50%;
+    margin-left: 30px;
+}
+
+#s3 h2{
+    font-weight: lighter;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#s3 p{
+    color: #b3b3b3;
+    margin: 0;
+}
+
+.section4{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.s4-container{
+    height: 75%;
+    width: 60%;
+    background-color: rgba(147, 186, 173, 0.32);
+    
+}
+.s4-row{
+    display: flex;
+    padding: 80px 90px 40px 90px;
+}
+.s4-col-left{
+    flex: 50%;
+    margin-right: 30px;
+}
+.s4-col-left h2{
+    font-weight:200;
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.s4-col-left p{
+    text-align: left;
+    line-height: 23px;
+    color: #474747;
+    margin: 0;
+}
+.s4-col-right{
+    flex: 50%;
+    margin-left: 30px;
+}
+
+.contact-form{
+    height: 85%;
+    width: 100%;
+    background-color: black;
+    border-radius: 4px;
+}
+.contact-form h1{
+    color: #fff;
+    padding: 30px;
+    font-size: 30px;
+    font-weight:lighter;
+} 
+.input-details{
+    text-align: left;
+    padding: 10px 35px 10px 35px;
+}
+.input-details label{
+    color: white;
+}
+.input-details input{
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+#code{
+    width: 30%;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+#phone{
+    width: 68%;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+#btn-submit{
+    background-color: #e0b455;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+}
+#btn-submit:hover{
+    background-color: black;
+    color:#e0b455;
+    border:3px solid #e0b455;
+}
+.footer{
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer p{
+    width: 35%;
+    color: #474747;
+    text-align: right;
+}
