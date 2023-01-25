@@ -86,23 +86,28 @@ header .nav ul li a:hover{
 }
 
 .section2{
-    height: 45vh;
+    min-height: 45vh;
+    max-width: 100%;
     box-sizing: border-box;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #s2{
-    margin: 0px 500px 0px 500px;
+    /* margin: 0px 500px 0px 500px; */
+
 }
 #s2 h2{
     font-weight: lighter;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 0;
-    padding:50px 0px 10px 0px;
 }
 #s2 p{
     color: #474747;
     margin: 0;
+    padding:0 250px 0 250px;
 }
 
 .section3{
