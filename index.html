@@ -10,26 +10,22 @@
 
   <body>
     <header>
+      <input type="checkbox" id="menu"></input>
+      <label for="menu"><img src="/Images/menu.png" /></label>
       <a href="#" class="Logo">
         <img id="bearlogo" src="/Images/bearlogo.png" />
       </a>
 
       <nav class="nav">
-        <ul>
+        <ul class="links">
           <li><a class="nav-btn">Home</a></li>
           <li><a class="nav-btn">About</a></li>
           <li><a class="nav-btn">Contact</a></li>
           <li><a class="nav-btn">Services</a></li>
-          <li>
-            <a class="nav-btn"><img src="/Images/fb.png" /></a>
-          </li>
-          <li>
-            <a class="nav-btn"><img src="/Images/twt.png" /></a>
-          </li>
-          <li>
-            <a class="nav-btn"><img src="/Images/yt.png" /></a>
-          </li>
-        </ul>
+          <li><a class="socials"><img src="/Images/fb.png" /></a></li>
+          <li><a class="socials"><img src="/Images/twt.png" /></a></li>
+          <li><a class="socials"><img src="/Images/yt.png" /></a></li> 
+        </ul> 
       </nav>
     </header>
 
@@ -151,16 +147,16 @@
             <div class="input-details">
               <label>Your name</label>
               <br />
-              <input type="text" id="name" />
+              <input type="text" id="name" required />
 
               <label>Your email</label>
               <br />
-              <input type="email" id="email" />
+              <input type="email" id="email" required />
               <label>Your phone</label>
               <br />
               <div class="contact">
-                <input type="text" id="code" placeholder="Code" />
-                <input type="text" id="phone" placeholder="Phone" />
+                <input type="text" id="code" placeholder="Code" required />
+                <input type="text" id="phone" placeholder="Phone" required />
               </div>
               <button type="submit" id="btn-submit">SUBMIT</button>
             </div>

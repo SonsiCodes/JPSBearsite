@@ -20,7 +20,10 @@ header{
     padding: 0px 7%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
+}
+header .Logo{
+    margin-right: auto;
 }
 header .nav li{
     list-style: none;
@@ -29,7 +32,7 @@ header .nav li{
 header .nav ul li{
     position: relative;
     float: left;
-    color: white;
+    color: white;   
     margin-right: 10px;
 
 }
@@ -45,6 +48,16 @@ header .nav ul li a{
 header .nav ul li a:hover{
     background-color: grey;
     color: black;
+}
+.socials{
+    /* line-height: 55px; */
+}
+#menu{
+    display: none;
+}
+header label{
+    cursor: pointer;
+    display: none;
 }
 .section1{
     min-height: 100vh;
@@ -84,9 +97,8 @@ header .nav ul li a:hover{
     font-weight: bolder;
 }
 #btn-contact:hover{
-    background-color: white;
+    background-color: grey;
     color: black;
-    border: 2px solid black;
     
 }
 
@@ -262,6 +274,10 @@ header .nav ul li a:hover{
     color:#e0b455;
     border:1px solid #e0b455;
 }
+.invalid{
+    display: none;
+    color: red;
+}
 .footer{
     background-color: black;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -282,10 +298,31 @@ header .nav ul li a:hover{
     .footer p{
         display: none;
     }
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .nav{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: black;
+    }
+    .links li{
+        width: 100%;
+        background:black;
+        text-align: left;
+    }
 
-
+    #menu:checked ~ .nav{
+        display: initial;
+    }
 }
-@media screen and (max-width: 1400px) { 
+@media screen and (max-width: 1400px) {
     .s4-container{
         display: block;
         padding: 30px;
