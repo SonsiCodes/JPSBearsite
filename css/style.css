@@ -11,6 +11,7 @@ body{
     text-align: center;
 }
 header{
+    max-height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
