@@ -48,22 +48,27 @@ header .nav ul li a:hover{
     color: black;
 }
 .section1{
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100%;
     padding: 30px;
     box-sizing: border-box;
     background-image: url('/Images/backgroundimg.png');
     background-repeat: no-repeat;
     background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #s1{
-    margin: 300px 300px 0px 300px;
+    /* margin: 300px 300px 0px 300px; */
 }
 #s1 h2{
     font-weight: lighter;
     font-size: 45px;
     margin: 0;
     padding-bottom: 10px;
+    padding-top: 50px;
 }
 #s1 p{
     color: #474747;
@@ -75,7 +80,7 @@ header .nav ul li a:hover{
     padding: 10px 55px 10px 55px;
     border-radius: 5px;
     border: 0px;
-    transition-duration: 0.4s;
+    transition-duration:0.4s;
     font-weight: bolder;
 }
 #btn-contact:hover{
@@ -95,30 +100,37 @@ header .nav ul li a:hover{
     align-items: center;
 }
 #s2{
-    /* margin: 0px 500px 0px 500px; */
 
+    padding: 30px 0px 30px 0px; 
+    max-width: 65%;
 }
 #s2 h2{
     font-weight: lighter;
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 0;
 }
 #s2 p{
     color: #474747;
     margin: 0;
-    padding:0 250px 0 250px;
+    /* padding:0 250px 0 250px; */
 }
 
 .section3{
-    height: 45vh;
+    min-height: 45vh;
+    max-width: 100%;
     box-sizing: border-box;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #s3{
     display: flex;
     text-align: left;
-    padding: 40px 300px 40px 300px;
+    max-width: 65%;
+    padding: 40px 0px 40px 0px; 
+
 }
 
 .col-left{
@@ -143,7 +155,8 @@ header .nav ul li a:hover{
 }
 
 .section4{
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100%;
     box-sizing: border-box;
     background-color: white;
     display: flex;
@@ -152,14 +165,19 @@ header .nav ul li a:hover{
 
 }
 .s4-container{
-    height: 75%;
-    width: 60%;
+    height: 90%;
+    width: 80%;
+
+    padding: 40px 0px 40px 0px; 
     background-color: rgba(147, 186, 173, 0.32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .s4-row{
     display: flex;
-    padding: 80px 90px 40px 90px;
+    padding: 0px 90px 30px 90px;
 }
 .s4-col-left{
     flex: 50%;
@@ -232,12 +250,12 @@ header .nav ul li a:hover{
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 20px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 #btn-submit:hover{
-    background-color: black;
+    background-color: black;    
     color:#e0b455;
-    border:3px solid #e0b455;
+    border:1px solid #e0b455;
 }
 .footer{
     background-color: black;
